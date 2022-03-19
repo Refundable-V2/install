@@ -42,9 +42,9 @@ sub_install() {
   fi
   mkdir src/
   printf "Downloading the Backend (huginn).\n"
-  git clone --quiet https://github.com/refundable-tgm/huginn.git src/huginn > /dev/null
+  git clone --quiet https://github.com/refundable-v2/huginn.git src/huginn > /dev/null
   printf "Download complete\nDownloading the Frontend (web).\n"
-  git clone --quiet https://github.com/refundable-tgm/web.git src/web > /dev/null
+  git clone --quiet https://github.com/refundable-v2/web.git src/web > /dev/null
   printf "Download complete.\n"
   printf "\n------\n\n"
   read -rp "Choose a MongoDB Admin Username: " adminusername
