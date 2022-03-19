@@ -9,13 +9,13 @@ To install Refundable `git` is required (further instructions can be viewed [her
 ```bash
 mkdir refundable
 cd refundable
-git clone https://github.com/refundable-tgm/install .
+git clone https://github.com/refundable-v2/install .
 sudo chmod +x refundable.sh
 ```
 
 ### b) Downloading via GitHub
 
-Another way to install Refundable is to download the latest release of this repository. The releases can be found [here](https://github.com/refundable-tgm/install/releases).
+Another way to install Refundable is to download the latest release of this repository. The releases can be found [here](https://github.com/refundable-v2/install/releases).
 The downloaded archive is then unpacked using either the command `unzip <file>` or `tar xfv <file>` depending on which archive was downloaded.
 To make the unpacked script then executable the following command must be executed:
 ```bash
@@ -63,5 +63,5 @@ The following subcommands are available, when using the `refundable.sh` script:
 During the installing process, the script will prompt for user credentials (see [here](config/README.md)) and will download repositories containing the source code of the back- and frontend.
 
 These repositories are the following:
- - [huginn](https://github.com/refundable-tgm/huginn) - the backend
- - [web](https://github.com/refundable-tgm/web) - the frontend
+ - [huginn](https://github.com/refundable-v2/huginn) - the backend
+ - [web](https://github.com/refundable-v2/web) - the frontend
