@@ -28,7 +28,7 @@ sub_help() {
 sub_install() {
   if [ "$1" = "-d" ]; then
     printf "Downloading Docker.\n"
-    curl -fsSL get.docker.com -o docker-install.sh > /dev/null
+    curl -fsSL https://get.docker.com -o docker-install.sh > /dev/null
     printf "Download complete. Now installing. This may take a while.\n"
     sudo sh docker-install.sh
     rm docker-install.sh
